@@ -16,5 +16,24 @@
         </div>
     </div>
 
+    <div class="border border-red-500 mt-14 mb-10">
+        <h1 class="text-center text-3xl italicize font-bold my-5">Top Products</h1>
+
+        <div class="">
+            <div class="bg-[url(/img/tp-bg.png)] bg-cover w-[11em] h-[14.5em] p-2">
+                <img src="/img/peachDanish.svg" alt="" class="w-28 h-28 ml-6">
+                <div class="flex justify-between text-white text-sm mt-10">
+                    <p>$40</p>
+                    <Icon name="mdi:information-outline" />
+                </div>
+                <div class="flex justify-between text-white text-xs my-2">
+                    <h1 class="w-10">Danish Peach</h1>
+                    <button class="text-white bg-red-800 h-8 px-2">Add</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <TopProducts/> -->
+
 
 </template>
