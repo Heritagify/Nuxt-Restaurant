@@ -21,7 +21,7 @@
         <div class="border-4 border-white w-[20rem] mx-5 my-40 space-y-4">
             <h1 class="text-[#E9BD8C]">Delicious Cafe</h1>
             <h1 class="text-white text-5xl font-inter">Sweet Treats,</h1>
-            <h1 class="text-white text-5xl">Perfect Eats</h1>
+            <h1 class="text-white text-5xl font-sans">Perfect Eats</h1>
 
             <div class="flex space-x-7 border-2 border-green-800">
                 <button class="rounded-sm w-20 text-sm bg-[#E9BD8C] text-white">Order Now</button>
