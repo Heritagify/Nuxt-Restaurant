@@ -1,5 +1,5 @@
 <template>
-  <div class="border border-red-500 mt-14 mb-10 p-7 lg:px-28 w-full">
+  <div class="md:mt-14 mb-10 p-7 lg:px-28 w-full">
     <h1 class="text-center text-3xl italic font-bold my-5">Top Products</h1>
  
     <!-- Modified grid layout -->
@@ -7,18 +7,18 @@
       <div 
         v-for="product in products" 
         :key="product.name" 
-        class="bg-[url(/img/tp-bg.png)] bg-cover w-[20rem] md:w-52 lg:w-[21.5em] h-[19.5em] p-2 flex flex-col justify-between rounded-2xl"
+        class="bg-[url(/img/tp-bg.png)] bg-cover w-[22rem] md:w-52 h-[25em] lg:w-[21.5em] md:h-[19.5em] p-2 flex flex-col justify-between rounded-2xl"
       >
         <div class="flex justify-center">
-          <img :src="product.image" :alt="product.name" class="lg:w-32 lg:h-32">
+          <img :src="product.image" :alt="product.name" class="lg:w-48">
         </div>
         <div>
-          <div class="flex justify-between text-white text-sm">
+          <div class="flex justify-between text-white text-xl md:text-sm">
             <p>${{ product.price }}</p>
             <Icon name="mdi:information-outline" />
           </div>
-          <div class="flex justify-between text-white text-xs mt-2">
-            <h1 class="w-10">{{ product.name }}</h1>
+          <div class="flex justify-between text-white text-xl md:text-sm mt-2">
+            <h1 class="md:w-10">{{ product.name }}</h1>
             <button class="text-white bg-red-800 h-8 px-2">Add</button>
           </div>
         </div>

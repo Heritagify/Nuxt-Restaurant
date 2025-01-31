@@ -1,9 +1,41 @@
 <template>
     <NuxtLayout>
-        <header class="flex flex-col py-3 px-4 md:px-20">
+
+        <!-- For larger screen -->
+        <header class="hidden md:flex justify-between py-3 px-20">
+        <!-- LOGO -->
+        <img src="/img/logo.svg" alt="" class="w-14 h-14">
+        <!-- NavItems -->
+        <nav class="flex items-center space-x-4 text-sm">
+            <a href="/" class="text-[#E9BD8C]">
+                <Icon name="mdi:home" />
+                Home</a>
+            <a href="/" class="p-2 text-white rounded-lg hover:bg-[#E9BD8C]">
+                <Icon name="mdi:food" />
+                Menu</a>
+            <a href="/contact" class="p-2 text-white rounded-lg hover:bg-[#E9BD8C] ">
+                <Icon name="mdi:phone" />
+                Contact Us</a>
+            <a href="/about" class="p-2 text-white rounded-lg hover:bg-[#E9BD8C] ">
+                <Icon name="mdi:cart" />
+                Order Online</a>
+            <a href="/about" class="p-2 text-white rounded-lg hover:bg-[#E9BD8C] ">
+                <Icon name="mdi:information-outline" />
+                About</a>
+        </nav>
+        <div class="flex items-center space-x-4">
+            <Button icon="mdi:login">Login</Button>
+            <Button icon="mdi:account-plus">SignUp</Button>
+        </div>
+        </header>
+
+
+
+<!--  -->
+        <header class="flex flex-col md:hidden py-3 px-4 md:px-20">
             <!-- Logo and Hamburger Row -->
             <div class="flex justify-between items-center w-full">
-                <img src="/img/logo.svg" alt="" class="w-14 h-14">
+                <img src="/img/logo.svg" alt="" class="w-16 h-16 md:w-14 md:h-14">
                 <button @click="isMenuOpen = !isMenuOpen" class="md:hidden">
                     <Icon name="mdi:menu" class="text-white text-2xl"/>
                 </button>
@@ -11,7 +43,7 @@
  
             <!-- NavItems and Auth Buttons -->
             <div :class="[isMenuOpen ? 'block' : 'hidden md:flex', 'w-full']">
-                <nav class="flex flex-col md:flex-row md:items-center space-y-4 md:space-y-0 md:space-x-4 text-sm">
+                <nav class="flex flex-col md:flex-row md:items-center space-y-3 md:space-y-0 md:space-x-4 md:text-sm">
                     <a href="/" class="text-[#E9BD8C] w-full md:w-auto flex items-center gap-2 p-2">
                         <Icon name="mdi:home" />
                         Home
