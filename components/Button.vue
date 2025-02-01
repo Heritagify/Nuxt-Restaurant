@@ -35,6 +35,8 @@
         'bg-blue-500 text-white hover:bg-blue-700': props.variant === 'primary',
         // Secondary style
         'bg-gray-500 text-white hover:bg-gray-700': props.variant === 'secondary',
+        // Tertiary style
+        'bg-gray-500 text-white bg-red-800 hover:bg-gray-500': props.variant === 'tertiary',
       },
     ];
   });

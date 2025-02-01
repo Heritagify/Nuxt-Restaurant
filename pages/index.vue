@@ -17,6 +17,14 @@
     </div>
 
     <TopProducts/>
+    <div class="py-10">
+        <img src="/img/first-discount.png" alt="" class="w-full h-[16em]">
+        <div class="">
+            <h1>20% off your first order </h1>
+            <p></p>
+            <Button variant="tertiary" icon="mdi:arrow-right">Learn More</Button>
+        </div>
+    </div>
 
 
 </template>
