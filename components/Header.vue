@@ -4,7 +4,7 @@
         <!-- For larger screen -->
         <header class="hidden md:flex justify-between py-3 px-20">
         <!-- LOGO -->
-        <img src="/img/logo.svg" alt="" class="w-14 h-14">
+        <NuxtImg src="/img/logo.svg" alt="" class="w-14 h-14"/>
         <!-- NavItems -->
         <nav class="flex items-center space-x-4 text-sm">
             <a href="/" class="text-[#E9BD8C]">
