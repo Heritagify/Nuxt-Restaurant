@@ -13,5 +13,9 @@ export default defineNuxtConfig({
       xxl: 1536
     },
     domains: ['your-external-image-source.com'], // If using external images
-  }
+  },
+  sitemap: {
+    hostname: `https://bakery-phi-sepia.vercel.app`,
+    gzip: true,
+  },
 })
