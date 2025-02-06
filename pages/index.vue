@@ -34,6 +34,8 @@
         </div>
     </div>
 
+    <h1>Explore more</h1>
+
 
 
 </template>
