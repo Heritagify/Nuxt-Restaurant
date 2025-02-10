@@ -15,7 +15,7 @@
           />
         </div>
 
-        <!-- <div>
+        <div>
           <label for="email" class="block text-sm font-semibold">Email</label>
           <input 
             id="email"
@@ -27,7 +27,7 @@
         </div>
       </div> -->
 
-      <!-- Message Input -->
+      <!-- Message Input
      
     </form>
   </div>
