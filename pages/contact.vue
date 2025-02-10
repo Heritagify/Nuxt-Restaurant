@@ -2,7 +2,7 @@
     <div class="max-w-2xl mx-auto p-6 bg-white shadow-md rounded-lg">
     <h2 class="text-2xl font-bold mb-4 text-center">Contact Us</h2>
 
-    <form @submit.prevent="submitForm" class="space-y-4">
+    <form @submit.prevent="submit_Form" class="space-y-4">
       <!-- Name & Email Side by Side -->
       <div class="grid grid-cols-2 gap-4">
         <div>
